@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(252, 252, 252);
+    width: auto;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    padding: auto;
+    width: 100px;
+    align-items: center;
+    justify-items: center;
+}
+
+.card {
+    background-color: blueviolet;
+    border-radius: 8px;
+    box-sizing: border-box;
+    align-items: center;
+    width: 400px;
+    height: 700px;
+    margin-left: 0;
+    margin-top: 20px;
+}
+
+.img {
+    padding: 5px 10px;
+}
+
+.row {
+    align-items: center;
+    padding: 10px 1px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.form-control {
+    margin-top: 200px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 3px 10px;
+    margin: 5px;
+}
+
+.btn {
+    padding: 4px 15px;
+    color: rgb(255, 255, 255);
+    border-radius: 6px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.btn-success {
+    margin-top: 20px;
+    background-color: rgb(52, 179, 52);
+    border-color: aliceblue;
+}
+
+.btn-success:hover {
+    background-color: rgb(36, 223, 36);
+    transition: 300ms;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    margin-top: 40px;
+
+}
+
+.btn-primary {
+    margin-top: 20px;
+    background-color: rgb(22, 44, 204);
+    border-color: aliceblue;
+    width: 8px;
+    height: 4px;
+}
+
+.btn-success:hover {
+    background-color: rgb(60, 131, 212);
+    transition: 300ms;
+}
